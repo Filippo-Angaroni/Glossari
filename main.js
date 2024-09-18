@@ -79,6 +79,6 @@ function Update(terms){
 
     for (i = 0; i < terms.length; i++){
 
-        document.getElementById("mainTextArea").value += `\\newword{${terms[i].word}}{${terms[i].description}}\n`
+        document.getElementById("mainTextArea").value += `\\newword{${terms[i].word}}{${terms[i].description}}\n\n`;
     }
 }
